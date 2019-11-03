@@ -25,6 +25,7 @@ class BMI:
         return f'{self.value:.2f}'
 
 
+# クラスのインスタンス化
 hikibi_bmi = BMI(height=1.80, weight=67.0)
 print(hikibi_bmi)
 
